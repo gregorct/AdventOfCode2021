@@ -1,5 +1,3 @@
-const { text } = require('stream/consumers')
-
 let input = require('fs').readFileSync('input.inp', 'utf-8').split(/\r?\n/)
 input = input.map(line => line.split('-'))
 
